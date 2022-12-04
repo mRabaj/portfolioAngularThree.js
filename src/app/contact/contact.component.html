@@ -1,0 +1,52 @@
+<section id="contact">   
+  <div class="container">
+    <div id="liveAlertPlaceholder"></div>
+    <div class="row">
+      <!-- <div class="col-md-3 openWeather"></div> -->
+      <div class="col-lg-6 mx-auto">
+        <div class="card formContact" data-aos="zoom-in">
+          <h1 class="text-center title">{{'contact.title'| translate}}</h1>
+            <div class="card-body">
+              <form name="form" [formGroup]="form" method="post" (ngSubmit)="onSubmit()">
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="input-group">
+                      <input class="form-control" type="text" matInput [formControl]="name"  placeholder="{{'contact.name'| translate}}" required />
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="input-container">
+                      <input class="form-control" type="text" matInput [formControl]="subject" name="subject" placeholder="{{'contact.subject'| translate}}" required />
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="input-group">
+                      <input class="form-control" type="text" matInput [formControl]="email"  placeholder="{{'contact.email'| translate}}" pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$" required />
+                    </div>
+                  </div>
+                </div>
+                <div class="row mb-3">
+                  <div class="col">
+                    <div class="form-group">
+                      <textarea class="form-control" matInput [formControl]="message"  placeholder="{{'contact.message'| translate}}" rows="3" required></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-primary" type="submit" name="submit" id="liveAlertBtn"> {{ 'contact.send'| translate}}</button>
+                </div>
+              </form>
+            </div>
+        </div>
+      </div>
+      <!-- <div class="col-md-3"></div> -->
+    </div>
+  </div>
+</section>
+
+
+

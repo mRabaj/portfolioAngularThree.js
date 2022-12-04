@@ -1,0 +1,45 @@
+@import "../../styles/variables";
+
+#home {
+    background-color:var(--bgColorHome);
+}
+
+.sidebar{
+    width: auto;
+    height: 200px;
+    background-image:url('../../assets/images/silouhette_berge.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    background-color:var(--bgColor);
+    text-align:center;
+}
+.sidebar .btn {
+    background-color: var(--bgColorBtn);
+    color:white;
+    margin-left: 30%;
+}
+#canvas {
+    height: auto; width: auto; 
+    border-radius: 8px;
+}
+
+p span{
+    color:var(--bgColorFlagUkrain);
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    }
+h1{
+    color:#000C66;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.canvastitle{
+    display: flex;
+    justify-content: end;
+}

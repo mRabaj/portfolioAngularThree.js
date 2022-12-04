@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+nav{
+  background-color:var(--bgColor);
+  // border-color: var(--borderColor);
+  li{
+    display: inline-flex;
+   }
+   a {
+    color: var(--textColor);
+    display: flex;
+    align-items: center;
+    padding: 3px 4px;
+    margin-bottom: 2px;
+    transition: 0.3s;
+    font-size: 15px;
+  }
+   i{
+    font-size: 24px;
+    padding-right: 6px;
+  }
+   li:hover {
+    background-color: rgb(51, 59, 61);
+   }
+}

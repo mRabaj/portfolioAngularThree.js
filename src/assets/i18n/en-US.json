@@ -1,0 +1,58 @@
+{   
+    "choose_language" : "Choose language",
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "resum": "my resum",
+        "contactMe": "Contact me",
+        "dark": "Dark",
+        "light" : "Light",
+        "lang":{
+            "english" : "English",
+            "french" : "Français",
+            "german": "german",
+            "arabic" : "العربية"
+        }
+    },
+    "model":{
+        "download": "Download CV",
+        "hrefLangDownload": "https://drive.google.com/file/d/1auFaoxUtKUrwerdDPW6JRUVzgJijx4X_/view?usp=sharing"
+    },
+    "home":{
+        "welcome_text": "I am developer"
+    },
+    "about":{
+            "title": "about me",
+            "jobTitle": "Web and mobile application developer",
+            "introductionOfMe": "Passionate about new technologies and work methods. I continue to update my knowledge. Self-control, management of stress and unexpected events.",
+            "passionateAboutDevelopment":"Passionate about development",
+            "mobility": "Mobile throughout France",
+            "years": "Years",
+            "graduation": "Professional title web & web developer mobile",
+            "myResearch": "Open to any proposal",
+            "researchDescription": "I am looking for an internship, to develop my skills and knowledge in the field of web development.",
+            "and":"and",
+            "followMeOn":"Follow me on"
+    },
+    "skill":{
+        "skills" : "Skills"
+    },
+    "footer":{
+        "by": "By"
+    },
+    "contact": {
+        "title" : "Contact me",
+        "subtitle" : "Feel free to contact me ",
+        "send" : "Send",
+        "name" : "Name",
+        "email" : "E-mail",
+        "subject" : "Subject",
+        "message": "Your message",
+        "responseSuccess" : "Thanks for the message! I'll get back to you soon!",
+        "responseNotSuccess" : "Oops! Something went wrong... Reload the page and try again."
+    },
+    "language.english" : "English",
+    "language.french" : "French"
+}
+  

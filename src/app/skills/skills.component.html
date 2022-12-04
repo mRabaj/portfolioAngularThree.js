@@ -1,0 +1,18 @@
+<section id="skills">
+    <div class="container">
+      <h2 class="title"><strong>{{'skill.skills' | translate |uppercase}}</strong></h2>
+      <span class="bar-title mb-4"></span>
+      <div class="card shadow rounded" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-lg-6 col-sm-6">
+              <div class="chart" [chart]="chart"></div>
+            </div>
+            <div class="col-lg-6 col-sm-6">
+              <div class="chart" [chart]="pieChart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>

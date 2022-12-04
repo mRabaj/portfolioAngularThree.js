@@ -1,0 +1,65 @@
+$bgColor_light: #0074c1;
+$bgColor_dark: #171036;
+
+$bgColorHome_light : white;
+$bgColorHome_dark :#B2C8DF;
+
+//$bgImageContactLight
+$pathPictureContact : url("../assets/images/world_map_on_white_background-v2.svg");
+
+$bgColorFooter_light : #ffdf00;
+
+$textColor_light: black;
+$textColor_dark: white;
+
+$borderColor_light: black;
+$borderColor_dark: white;
+
+// mixin that enables css variables in light mode
+@mixin lighten() {
+  --bgColor: #{$bgColor_light};
+  --bgColorHome : #{$bgColorHome_light};
+  --textColor: #{$textColor_light};
+  --borderColor: #{$borderColor_light};
+  --bgColorFooter:#{$bgColorFooter_light};
+  --bgColorBtn:#{$bgColor_dark};
+  --bgColorFlagUkrain:#{$bgColorFooter_light};
+  --bgSkills:#{$bgColorHome_light};
+
+  #contact{
+   background-image: $pathPictureContact;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+  }
+    //dipslay button dark light
+  .light{
+    display: none;
+  }
+}
+
+// mixin that enables css variables in dark mode
+@mixin darken() {
+  --bgColor: #{$bgColor_dark};
+  --bgColorHome : #{$bgColorHome_dark};
+  --textColor: #{$textColor_dark};
+  --borderColor: #{$borderColor_dark};
+  --bgColorFooter:#{$bgColor_dark};
+  --bgColorBtn:#{$bgColorFooter_light};
+  --bgColorFlagUkrain:#{$bgColor_light};
+  --bgSkills:#{$bgColor_dark};
+ 
+  #contact{
+    background-color:$bgColorHome_dark;
+  }
+  .formContact{
+    background-color:$bgColor_dark;
+  }
+
+  //dipslay button dark light
+  .dark{
+    display: none;
+  }
+}
+
+

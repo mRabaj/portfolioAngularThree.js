@@ -1,0 +1,58 @@
+{   
+    "choose_language" : "Choose language",
+    "header": {
+        "home": "accueil",
+        "about": "a propos",
+        "skills": "compétences",
+        "resum":"CV",
+        "contactMe": "me contacter",
+        "dark": "Sombre",
+        "light" : "Clair",
+        "lang":{
+            "english" : "English",
+            "french" : "Français",
+            "german": "german",
+            "arabic" : "العربية"
+        }
+    },
+    "model":{
+        "download": "Télécharger CV",
+        "hrefLangDownload": "https://drive.google.com/file/d/1pB71v0SeVKZQlR2cBg-TK63EqEE9bHrB/view?usp=sharing"
+    },
+    "home":{
+        "welcome_text": "je suis développeur",
+        "hireme" : "Me contacter "
+    },
+    "about":{
+            "title": "a propos de moi",
+            "jobTitle": "Développeur d'applications web et mobiles",
+            "introductionOfMe": "Passionné par les nouvelles technologies et méthodes de travail. Je continue de mettre à jour mes connaissances. Maîtrise de soi, gestion du stress et des imprévus.",
+            "passionateAboutDevelopment":"Passionné par le développement",
+            "mobility": "Mobile dans toute la France",
+            "years": "années",
+            "graduation": "Titre professionnel développeur web & web mobile",
+            "myResearch": "Ouvert à toute proposition",
+            "researchDescription": "Je recherche un stage, aﬁn de développer mes compétences et savoirs dans le domaine de développement web.",
+            "and":"et",
+            "followMeOn":"Suivez-moi sur"
+    },
+    "skill":{
+        "skills" : "Compétences"
+    }, 
+    "footer":{
+        "by": "Par"
+    },
+    "contact": {
+        "title" : "Me contacter",
+        "subtitle" : "N'hésitez pas à me contacter",
+        "send" : "Envoyer",
+        "name" : "Nom",
+        "email" : "Mail",
+        "subject" : "Sujet",
+        "message": "Votre message",
+        "responseSuccess" : "Merci pour votre message! Je vous répondrai dès que possible !",
+        "responseNotSuccess": "Oops! Une erreur s'est produite... rechargez la page et réessayez."
+    },
+    "language.english" : "English",
+    "language.french" : "French"
+}

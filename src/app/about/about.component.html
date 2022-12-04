@@ -1,0 +1,63 @@
+<section id="about">    
+    <div class="container">
+        <h2 class="title"><strong>{{'about.title' | translate | uppercase}}</strong></h2>
+        <span class="bar-title mb-5"></span>
+        <div class="row">
+            <div class="col-lg-5" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                <div class="d-flex flex-column">
+                    <canvas #canvas id="canvas"></canvas>  
+                    <div class="media">   
+                        <a class="btn-social-media" href="https://www.linkedin.com/in/mohammed-rabaj-609071176/" rel="tooltip"
+                            target="_blank" title="{{'about.followMeOn' | translate}} Linkedin">
+                            <i class="fa fa-linkedin fa-lg "></i>
+                        </a>
+                        <a class="btn-social-media btn-default btn-round btn-lg btn-icon"
+                            href="https://github.com/mRabaj" rel="tooltip" target="_blank"
+                            title="{{'about.followMeOn' | translate}} GitHub">
+                            <i class="fa fa-github"></i>                  
+                        </a>
+                    </div>
+                </div>               
+            </div>
+            <!-- <div class=" col-lg-1"></div> -->
+            <div class="card col-lg-7" data-aos="fade-up-left" data-aos-easing="ease-in-sine" data-aos-offset="300">
+                <div class="card-body">
+                        <h3>{{'about.jobTitle' | translate}}</h3>
+                        <p>{{'about.introductionOfMe' | translate}}</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <ul>
+                                    <li>
+                                        <fa-icon [icon]="building"></fa-icon><strong> Rodez, France</strong>
+                                    </li>
+                                    <li>
+                                        <fa-icon [icon]="mapMarker"></fa-icon><strong> {{'about.mobility' | translate}}</strong>
+                                    </li>
+                                    <li>
+                                        <fa-icon [icon]="email"></fa-icon><strong><a href="mailto:rabaj.mohammed@outlook.com">
+                                            rabaj.mohammed@outlook.com</a></strong>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <ul>
+                                    <li>
+                                        <fa-icon [icon]="birthday"></fa-icon><strong> {{ getAge() }} {{'about.years' | translate}}</strong>
+                                    </li>
+                                    <li>
+                                        <fa-icon [icon]="badge"></fa-icon><strong> {{'about.graduation' | translate}}</strong>
+                                    </li>
+                                    <li>
+                                        <fa-icon [icon]="home"></fa-icon><strong> {{'about.myResearch' | translate}} </strong>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <p>
+                            {{'about.researchDescription' | translate}}
+                        </p> -->
+                </div>
+              </div>
+        </div>
+    </div>
+</section>

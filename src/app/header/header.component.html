@@ -1,0 +1,38 @@
+<header class="header">
+    <nav class="navbar fixed-top navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="nav-link navbar-brand disabled" href="">
+                <img src="../../assets/logo/tiger-animal-mascot-head.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item p-1 rounded">
+                        <a class="nav-link" aria-current="page" href="#home"><i><fa-icon [icon]="faHome"></fa-icon></i>{{ 'header.home' | translate | uppercase}}</a>
+                    </li>
+                    <li class="nav-item p-1 rounded">
+                        <a class="nav-link" href="#about"><i><fa-icon [icon]="faAddressCard"></fa-icon></i>{{ 'header.about' | translate | uppercase}}</a>
+                    </li>
+                    <li class="nav-item p-1 rounded">
+                        <a class="nav-link" href="#skills"><i><fa-icon [icon]="faBriefcase"></fa-icon></i>{{ 'header.skills' | translate | uppercase}}</a>
+                    </li>
+                    <li class="nav-item p-1 rounded">
+                        <a class="nav-link" href="#contact"><i><fa-icon [icon]="faEnvelope"></fa-icon></i>{{ 'header.contactMe' | translate | uppercase}}</a>
+                    </li>                   
+                </ul>
+                <li class="nav-item p-1 rounded">
+                    <select (change)="selectLanguage($event)" class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                        <option value="en-US">{{ 'header.lang.english'| translate}}</option>
+                        <option value="fr-FR">{{ 'header.lang.french' | translate}}</option>
+                    </select>   
+                </li>
+                <button (click)="toggle()" class="btn btn-md btn-success">
+                    <span class="light"><fa-icon [icon]="faSun"></fa-icon></span>
+                    <span class="dark"><fa-icon [icon]="faMoon"></fa-icon></span>
+                </button> 
+            </div>
+        </div>
+    </nav>
+</header>

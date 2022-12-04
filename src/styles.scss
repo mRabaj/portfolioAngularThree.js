@@ -1,0 +1,53 @@
+@import "./styles/variables";
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{scroll-behavior: smooth;}
+
+section{
+  padding-top: 100px;
+}
+
+.bar-title{
+  width: 50px;
+  display: block;
+  height: 4px;
+  background:#7EC8E3;
+}
+body > div:nth-child(11)
+{
+  display: none;
+}
+
+body > div:nth-child(12)
+ {
+  display: none;
+}
+
+//mode light/dark
+body.dark {
+  @include darken();
+}
+body.light {
+  @include lighten();
+}
+
+// .container {
+//   @media only screen and (max-width: 600px) {
+//     width: 100%;
+//   }
+
+//   @media only screen and (min-width: 600px) {
+//     width: 90%;
+//   }
+
+//   @media only screen and (min-width: 768px) {
+//     width: 80%;
+//   }
+// }

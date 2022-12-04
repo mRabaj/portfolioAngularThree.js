@@ -1,0 +1,21 @@
+{   
+    "choose_language" : "Choose language",
+    "header": {
+        "home": "استقبال",
+        "about": "عن",
+        "skills": "المهارات",
+        "resum" : "السيرة الذاتية",
+        "contactMe": "اتصل بي",
+        "lang":{
+            "english" : "English",
+            "french" : "Français",
+            "german": "german",
+            "arabic" : "العربية"
+        }
+    },
+    "home":{
+        "welcome_text": "je suis développeur"
+    },
+    "language.english" : "English",
+    "language.french" : "French"
+}

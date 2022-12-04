@@ -1,0 +1,22 @@
+{   
+    "choose_language" : "Choose language",
+    "header": {
+        "home": "startseite",
+        "about": "über",
+        "skills": "Fertigkeiten",
+        "resum": "lebenslauf",
+        "contactMe": "kontaktieren Sie mich",
+        "lang":{
+            "english" : "English",
+            "french" : "Français",
+            "arabic" : "العربية",
+            "german": "german"
+        }
+    },
+    "home":{
+        "welcome_text": "I am developer"
+    },
+    "language.english" : "English",
+    "language.french" : "French"
+}
+  
