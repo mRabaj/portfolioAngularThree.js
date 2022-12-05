@@ -29,7 +29,10 @@ body > div:nth-child(12)
  {
   display: none;
 }
-
+body > div:nth-child(9)
+{
+  display: none;
+}
 //mode light/dark
 body.dark {
   @include darken();

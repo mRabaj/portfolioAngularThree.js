@@ -17,7 +17,7 @@
     },
     "model":{
         "download": "Télécharger CV",
-        "hrefLangDownload": "https://drive.google.com/file/d/1pB71v0SeVKZQlR2cBg-TK63EqEE9bHrB/view?usp=sharing"
+        "hrefLangDownload": "https://drive.google.com/file/d/1orCPwrBRB7SljviqjSm0j92jPmfl_mfl/view?usp=share_link"
     },
     "home":{
         "welcome_text": "je suis développeur",
@@ -37,7 +37,11 @@
             "followMeOn":"Suivez-moi sur"
     },
     "skill":{
-        "skills" : "Compétences"
+        "skills" : "Compétences",
+        "titleColumnChart" : "Technologies",
+        "titlePieChart" : "Outils",
+        "textColumnChart" : "Exemple de maîtrise des technologies dans un tableau à colonnes.",
+        "textPieChart" : "Exemple de maîtrise d'outils dans un diagramme circulaire."
     }, 
     "footer":{
         "by": "Par"

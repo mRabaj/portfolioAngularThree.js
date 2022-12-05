@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators'
   providedIn: 'root'
 })
 export class ServicesService {
-  private mailApi = ''
+  private mailApi = 'https://formspree.io/f/mrgdlyvo'
 
   constructor(private http: HttpClient) { }
 

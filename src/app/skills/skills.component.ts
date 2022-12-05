@@ -14,7 +14,7 @@ export class SkillsComponent implements OnInit {
        type: 'column'
     },
     title: {
-       text: 'Technologies'
+       text: ''
     },
     accessibility: {
       announceNewData: {
@@ -84,7 +84,7 @@ export class SkillsComponent implements OnInit {
        type: 'pie'
     },
     title: {
-       text: 'Tools'
+       text: ''
     },
     accessibility: {
       announceNewData: {

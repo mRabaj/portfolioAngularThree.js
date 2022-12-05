@@ -47,7 +47,7 @@ export class ContactComponent implements OnInit {
 			formData.append("message", this.form.get("message").value);
 			this.isLoading = true; // sending the post request async so it's in progress
 			this.submitted = false; // hide the response message on multiple submits
-			this.http.post("", formData).subscribe(
+			this.http.post("https://script.google.com/macros/s/AKfycbzpNRJRv_JqCP97Lyi5nbx5Hcz5h7aphV3d-K2EOnuC2P4HgFPcfzDq_vfwheqWqAe5qQ/exec", formData).subscribe(
 				(response) => {
 					// choose the response of message after send
 					const alertPlaceholder = document.getElementById('liveAlertPlaceholder')

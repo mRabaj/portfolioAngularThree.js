@@ -37,8 +37,7 @@ export class AboutComponent implements OnInit,  AfterViewInit {
 
   }
 
-  @ViewChild('canvas')
-  private canvasRef: ElementRef;
+  @ViewChild('canvas') private canvasRef: ElementRef;
 
   //* Cube Properties
 

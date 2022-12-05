@@ -17,7 +17,7 @@
     },
     "model":{
         "download": "Download CV",
-        "hrefLangDownload": "https://drive.google.com/file/d/1auFaoxUtKUrwerdDPW6JRUVzgJijx4X_/view?usp=sharing"
+        "hrefLangDownload": "https://drive.google.com/file/d/1OYA4Uycd-iCrjyqLFxGO_-psPGDTik1B/view?usp=share_link"
     },
     "home":{
         "welcome_text": "I am developer"
@@ -36,7 +36,11 @@
             "followMeOn":"Follow me on"
     },
     "skill":{
-        "skills" : "Skills"
+        "skills" : "Skills",
+        "titleColumnChart" : "Technologies",
+        "titlePieChart" : "Tools",
+        "textColumnChart" : "Example of mastering technologies in a column chart.",
+        "textPieChart" : "Example of mastering tools in a pie chart."
     },
     "footer":{
         "by": "By"
